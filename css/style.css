@@ -1,0 +1,367 @@
+/****************Estilos Gerais***************/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  ul {
+    font-size: 1em;
+    font-weight: normal;
+  }
+
+p {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
+.subtitulo {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 30px 0;
+	padding-bottom: 50px;
+}
+
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px auto;
+}
+
+
+/******************Header*****************/
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #000;
+	padding: 15px 0;
+	z-index: 10;
+}
+
+.header_menu {
+	text-align: right;
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 20px;
+	transition: 0.3s ease;
+}
+
+.header_menu ul li :hover {
+	color: #d5c06b;
+}
+
+.header_menu ul li a {
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0.5em 0;
+	transition: 0.2s ease;
+}
+
+.header_menu ul li a:hover {
+	border-bottom: 2px solid #d5c06b;
+}
+
+.header_menu ul li a img {
+	position: relative;
+}
+
+.separador {
+	position: fixed;
+	width: 100%;
+	height: 5px;
+	background-color: #d1bc6a;
+	margin-top: 15px;
+}
+
+
+/*******************Quem Sou***************/
+
+.introducao {
+	width: 100%;
+	height: 900px;
+	background-size: cover;
+	margin-top: 84px;
+	padding: 100px 200px;
+
+}
+
+.introducao h1 {
+	font-size: 30px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+
+	
+}
+.introducao p{
+	
+	text-indent: 1.5em;
+	margin: 20px;
+	text-align: justify;
+	font-size: 20px;
+	
+}
+
+.introducao .caixa1 {
+	display: block;
+	background: #d1bc6a;
+	text-align: center;
+	width: 100%;
+
+}
+
+
+/*************QUEM SOMOS*************/
+.formacao {
+	width: 100%;
+	height: 900px;
+	background: no-repeat center;
+	background-color: #000000;
+	background-size: cover;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.formacao h2 {
+	color: #fff;
+	margin: 60px 0;
+}
+
+.formacao h2:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 8px auto;
+}
+
+.formacao p {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	font-size: 20px;
+	color: #fff;
+	padding: 0 250px;
+}
+
+
+
+/**************Portifolio**************/
+.portifolio {
+	height: 100%;
+	height: 900px;
+	padding: 70px 0;
+}
+
+.portifolio_lista li {
+	background: #d5c06b;
+	text-align: center;
+	border: black;
+	border-radius: 5px;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.322);
+}
+
+.portifolio_lista li :hover {
+	color: #FFF;
+}
+
+.portifolio_lista li h3 {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
+	color: #000;
+}
+
+.portifolio_lista li h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 2px;
+	background: #000;
+	margin: 2px auto;
+	border-radius: 5px;
+}
+
+.portifolio_lista li p {
+	padding: 10px 20px 20px 20px;
+	color: #000;
+}
+
+.portifolio_icone {
+	height: 180px;
+	background: #fafafa;
+	padding: 20px;
+}
+
+/******************Contato****************/
+
+.interna_contato {
+	background-color: #000;
+	background-size: cover;
+}
+
+.contato {
+	padding: 40px 0;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.contato_form {
+	padding-right: 60px;
+}
+
+.contato_form label{
+	display: block;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}
+
+.contato_form input {
+	display: block;
+	width: 100%;
+	border: 4px solid #d1bc6a;
+	background: none;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.contato_form textarea {
+	display: block;
+	width: 100%;
+	height: 120px;
+	border: 4px solid #d1bc6a;
+	background: none;
+	padding: 7px 10px;
+	margin-bottom: 20px;
+	outline: none;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.contato_form button {
+	padding: 7px 40px;
+	background: none;
+}
+.btn {
+	border: 3px solid #d1bc6a;
+	padding: 10px 30px;
+	color: #d1bc6a;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.btn:hover {
+	background-color: #d1bc6a;
+	color: #FFF;
+	border-color: #000000;
+}
+
+
+.contato_dados h3{
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #d1bc6a;
+	font-weight: bold;
+}
+
+.contato_dados span {
+	display: block;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.contato_dados span:nth-of-type(even) {
+	margin-bottom: 30px;
+}
+
+.contato_dados ul {
+	margin-top: 10px;
+}
+
+.contato_dados ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.contato_dados ul li a {
+	border: 3px solid #d1bc6a;
+	display: block;
+	padding: 10px;
+}
+
+.contato_dados ul li a:hover {
+	border-color: #000;
+}
+
+
+
+/******************Footer****************/
+
+.footer {
+	width: 100%;
+	color: #fff;
+	padding: 20px 0;
+	background-size: cover;
+	text-align: left;
+}
+
+.copy {
+	width: 100%;
+	background: #d1bc6a;
+	padding: 20px 0;
+}
+
+/******************Footer****************/
